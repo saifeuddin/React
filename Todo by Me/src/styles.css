@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+
+* {
+    box-sizing: border-box;
+    /* margin: 0;
+    padding: 0; */
+}
+
+
+.list{
+    border: 1px solid #000;
+    background-image: linear-gradient(rgb(230, 230, 243) 90%,rgb(157, 202, 157) 100%);
+    border-radius: 5px;
+    border-width: 3px;
+}
+
+.list .item{
+    margin: 20px;
+}
+
+.list hr {
+    background-color: rgb(30, 30, 190);
+    height: 5px;
+}
+
+.item input:checked~hr{
+    background-color: red;
+}
+.button {
+    float: right;
+    background-color: blue;
+    color: white;
+    padding: 5px 10px;
+    /* background-color: red; */
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.inpt:checked ~ .button {
+    background-color: red;
+}
+
+
+.input input{
+    background-color: rgb(37, 224, 224);
+    height: 50px;
+    width: 500px;
+    text-transform: capitalize;
+    text-indent: 15px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.input input:focus{
+    text-transform: capitalize;
+    font-size: 25px;
+    height: 50px;
+    background-color: unset;
+}
+
+.input input:focus + button{
+    background-color: rgb(209, 142, 54);
+    position: relative;
+    top: -4px;
+}
+
+
+.input button{
+    color: white;
+    padding: 15px 19px;
+    background-color: rgb(188, 158, 216);
+    border-radius: 5px;
+}

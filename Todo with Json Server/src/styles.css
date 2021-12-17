@@ -1,0 +1,122 @@
+.app {
+    padding: 30px;
+    border: 5px solid rgb(211, 149, 149);
+    border-left: 10px ridge #000;
+    border-bottom: 1px ridge #000;
+}
+
+.header {
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    background-color: goldenrod;
+}
+
+.header h1 {
+    position: relative;
+    left: 20px;
+}
+
+.header button {
+    height: 50px;
+    position: relative;
+    top: 16px;
+    right: 14px;
+    padding: 0 15px;
+    background-color: blueviolet;
+    color: azure;
+    border: none;
+    border-radius: 7px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+}
+
+.header button:active {
+    border: 3px solid #000;
+}
+
+
+.task {
+    margin: 50px 0;
+}
+
+.task>* {
+    padding: 0;
+    margin: 0;
+}
+
+.task h3::before {
+    content: 'Task : ';
+}
+
+.task .icon {
+    color: red;
+    cursor: pointer;
+    float: right;
+    border: none;
+    background-color: blanchedalmond;
+}
+
+
+h3:active~hr {
+    height: 2px;
+    background-color: red;
+}
+
+.task.reminder {
+    padding-left: 5px;
+    border-left: 4px solid red;
+}
+
+.add-form{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.add-form input[type='text'] {
+    display: block;
+    margin: 5px 0;
+    width: 70%;
+    height: 30px;
+    text-indent: 10px;
+}
+
+
+.add-form .last{
+    display: flex;
+    gap: 280px;
+}
+
+.add-form .btn{
+    width: 70%;
+    background-color: #000;
+    color: #fff;
+    padding: 10px;
+}
+
+
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+footer .link{
+    display: inline-block;
+    padding: 8px;
+    border: 1px solid #000;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+}
+footer .link:active{
+    background-color: blue;
+    color: #fff;
+}
