@@ -1,0 +1,6 @@
+
+  "scripts": {
+    "server": "json-server --watch db.json --port 5000",
+    "server-route": "json-server --w db.json -p 4000 --routes routes.json",
+    "server-route-1": "json-server --w data.js -p 4000 --routes routes.json"
+ }
