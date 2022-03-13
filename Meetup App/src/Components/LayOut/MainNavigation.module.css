@@ -1,0 +1,55 @@
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(221, 57, 57);
+    padding: 20px;
+}
+
+.header > div{
+    font-size: 35px;
+    color: #fff;
+}
+
+.header ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.header ul li{
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid rgb(241, 73, 73);
+    border-radius: 5px;
+}
+
+.header ul li:hover{
+    border: none;
+    border-bottom: 8px solid rgb(92, 85, 85);
+    border-radius: 5px;
+}
+
+.header ul li a{
+    display: inline-block;
+    padding: 15px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+}
+
+.header + div{
+    font-size: 10px;
+}
+
+.badge {
+    margin: 5px;
+    border-radius: 20%;
+    padding: 3px 8px;
+    background-color: rgb(158, 57, 91);
+    -webkit-border-radius: 20%;
+    -moz-border-radius: 20%;
+    -ms-border-radius: 20%;
+    -o-border-radius: 20%;
+}

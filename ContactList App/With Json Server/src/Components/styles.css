@@ -1,0 +1,32 @@
+#root {
+    padding: 20px;
+}
+.fas {
+    font-size: 30px;
+}
+.fa-trash-alt:hover {
+    color: red;
+    font-size: 35px;
+}
+.fa-user-edit:hover {
+    font-size: 35px;
+    color: rgb(123, 39, 202);
+}
+
+.d1 {
+    border: 1px solid #000;
+}
+
+
+.div {
+    margin-top: 40px;
+    border: 1px solid #000;
+    padding: 15px 10px 0 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.div img {
+    vertical-align: top;
+}
